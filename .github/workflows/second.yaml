@@ -1,0 +1,9 @@
+name: second
+on : push
+
+jobs: 
+    first-job:
+        runs-on: ubuntu-latest
+        steps:
+          - name : dd
+            run : ls -ltr
