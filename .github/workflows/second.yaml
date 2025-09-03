@@ -7,3 +7,8 @@ jobs:
         steps:
           - name : dd
             run : ls -ltr
+    second-job:
+        runs-on: ubuntu-latest
+        steps:
+          - name: dy
+            run : ls -ltr        
